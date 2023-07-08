@@ -1,6 +1,11 @@
 /* Text */
+:root{
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
 h1, h2, h3 , h4, h5, h6 {
-    font-family: 'Anton', sans-serif;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700 !important;
   }
   p {
     font-family: 'Jura', sans-serif;
@@ -10,7 +15,6 @@ h1, h2, h3 , h4, h5, h6 {
   #mainNav {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 700;
 }
   #mainNav .navbar-brand {
@@ -19,6 +23,33 @@ h1, h2, h3 , h4, h5, h6 {
 }
 #mainNav .navbar-nav li.nav-item a.nav-link {
     color: #fff;
+}
+.masthead-avatar {
+    width: 15rem;
+    border: 1px solid #6c757d;
+    border-radius: 50%;
+    height: 15rem;
+}
+.divider-custom {
+    margin: 1.25rem 0 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .divider-custom .divider-custom-line {
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    border-color: #fff;
+  }
+.divider-custom .divider-custom-line:first-child {
+    margin-right: 1rem;
+}
+.divider-custom .divider-custom-line:last-child {
+    margin-left: 1rem;
 }
   @media (min-width: 1400px) {
     .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
@@ -41,7 +72,7 @@ h1, h2, h3 , h4, h5, h6 {
   
   /* Jumbotron copy */
   .jumboCopy {
-    width: 70%;
+    width: 100%;
     min-width: 500px;
     max-width: 700px;
     color: white;
