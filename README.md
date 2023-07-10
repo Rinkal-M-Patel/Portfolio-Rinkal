@@ -18,9 +18,9 @@ N//A
 The person who wants to check and learn about bootstrap layout with grid system and how to use bootstrap class and readymade structure with font-awesome and other icons can refer this project. you can review the topics of bootstrap layout and media query from learning website. 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![desktop view](./images/demo2.png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![tablet view](./images/demo1.png)
 
 
 ## Lessons Learned
