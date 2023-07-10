@@ -288,7 +288,7 @@
 
 <section class="containersec bg-grey" id="#">
     <div class="container">
-        <div class="row text-center">
+        <div class="row text-center justify-content-center">
             <h2>Conatct Me</h2>
             <!-- Icon Divider-->
             <div class="divider-custom">
@@ -298,12 +298,80 @@
             </div>
             
             <div class="col-lg-8 col-xl-7">
-
+                <form id="contactForm" >
+                    <!-- Name input-->
+                    <div class="form-floating mb-3">
+                        <input class="form-control" id="name" type="text" placeholder="Enter your name..." />
+                        <label for="Name">Full name</label>
+                       
+                    </div>
+                    <!-- Email address input-->
+                    <div class="form-floating mb-3">
+                        <input class="form-control" id="email" type="email" placeholder="name@example.com"/>
+                        <label for="email">Email address</label>
+                        
+                    </div>
+                    <!-- Phone number input-->
+                    <div class="form-floating mb-3">
+                        <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"  />
+                        <label for="phone">Phone number</label>
+                       
+                    </div>
+                    <!-- Message input-->
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" ></textarea>
+                        <label for="message">Message</label>
+                        
+                    </div>
+                    <!-- Submit success message-->
+                                   
+                    <!-- Submit Button-->
+                    <button class="btn btn-primary btn-xl" id="submitButton" type="submit">Send</button>
+                </form>
             </div>
         </div>
     </div>
 
 </section>
+
+
+ <!-- Footer-->
+ <footer class="footer text-center">
+    <div class="container">
+        <div class="row">
+            <!-- Footer Location-->
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <h4 class=" text-uppercase mb-4">Location</h4>
+                <p class="mb-0 lead">
+                    2215 John Daniel Drive
+                    <br />
+                    Clark, MO 65243
+                </p>
+            </div>
+            <!-- Footer Social Icons-->
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <h4 class="text-uppercase mb-4">Around the Web</h4>
+                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+            </div>
+            <!-- Footer About Text-->
+            <div class="col-lg-4">
+                <h4 class="text-uppercase mb-4">About Freelancer</h4>
+                <p class="lead mb-0">
+                    Freelance is a free to use, MIT licensed Bootstrap theme created by
+                    <a href="http://startbootstrap.com">Start Bootstrap</a>
+                    .
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Copyright Section-->
+<div class="copyright py-4 text-center text-white">
+    <div class="container"><small>Copyright &copy; Your Website 2023</small></div>
+</div>
 
   
 
