@@ -10,6 +10,12 @@ h1, h2, h3 , h4, h5, h6 {
   p {
     font-family: 'Jura', sans-serif;
   }
+  .text-center {
+    text-align: center !important;
+}
+.containersec{
+    padding: 6rem 0;
+}
   
   /* Navigation bar */
   #mainNav {
@@ -41,9 +47,9 @@ h1, h2, h3 , h4, h5, h6 {
     width: 100%;
     max-width: 7rem;
     height: 0.25rem;
-    background-color: #fff;
+    background-color: #6c757d;
     border-radius: 1rem;
-    border-color: #fff;
+    border-color: #6c757d;
   }
 .divider-custom .divider-custom-line:first-child {
     margin-right: 1rem;
@@ -68,12 +74,13 @@ h1, h2, h3 , h4, h5, h6 {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: calc(6rem + 74px);
+    padding-bottom: 6rem;
   }
   
   /* Jumbotron copy */
   .jumboCopy {
     width: 100%;
-    min-width: 500px;
     max-width: 700px;
     color: white;
     text-align: center;
